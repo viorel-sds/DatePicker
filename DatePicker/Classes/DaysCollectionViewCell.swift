@@ -184,7 +184,7 @@ extension DaysCollectionViewCell : UICollectionViewDelegate, UICollectionViewDat
     }
 
     func registerCell(name: String) {
-        collectionView.register(UINib(nibName: name, bundle: DatePicker.bundle), forCellWithReuseIdentifier: name)
+        collectionView.register(UINib(nibName: name, bundle: .module), forCellWithReuseIdentifier: name)
     }
 
     func getHeaderCell(indexPath: IndexPath) -> DayHeaderCollectionViewCell {

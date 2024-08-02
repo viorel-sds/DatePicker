@@ -18,6 +18,7 @@ let package = Package(
             name: "DatePicker",
             dependencies: ["Extended"],
             path: "DatePicker/Classes"
+            
         ),
         .testTarget(
             name: "DatePickerTests",
